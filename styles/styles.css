@@ -1,0 +1,63 @@
+/* Primero los selectores
+    Despues tener en cuenta las jerarquias.
+        Selectores
+        Class
+
+    Importante no usar id para estilar
+    En el caso de hacerlo, es el selector mas importante
+        Selectores
+        ID
+        Class
+
+    Para los contenedores tener en cuenta las jerarquias
+
+*/  
+
+.img-logo{
+    width: 150px;
+}
+
+nav{
+    background-color: rgb(20, 23, 25);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* sombra sutil */
+}
+
+.navbar:hover{
+  box-shadow: 0 0 15px #00BDBB; /* azul Bootstrap */
+  transform: translateY(-0.2px);
+  transition: all .25s ease-in;
+}
+
+.navbar{
+  transition: all 0.4s ease-out;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  background-color: #212529;
+}
+
+.nav-link{
+  padding: 5px;
+}
+
+main .card{
+  transition: all 0.4s ease-out;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  background-color: #212529;
+}
+
+.card:hover {
+  box-shadow: 0 0 15px  rgba(0, 0, 0, 0.2); 
+  transform: translateY(-2px);
+  transition: all .5s ease-in;
+}
+
+footer{
+    background-color: rgb(20, 23, 25);
+    width: 100%;
+    position:absolute;
+    padding: 2px;
+    align-items: center;
+}
+
+footer .text-body-secondary{
+    text-align: center;
+}
